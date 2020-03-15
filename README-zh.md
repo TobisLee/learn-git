@@ -92,7 +92,11 @@ $ git diff
 $ git commit
 ```
 
+<<<<<<< HEAD
 提交时添加单行提交信息（不建议使用）：
+=======
+提交时添加单行提交信息：
+>>>>>>> master
 
 ```bash
 $ git commit -m "commit message"
