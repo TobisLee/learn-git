@@ -70,6 +70,18 @@ $ git add *.py
 
 ## git查看状态和不同
 
+显示工作路径下已修改的文件：
+
+```bash
+$ git status
+```
+
+显示与上次提交版本文件的不同：
+
+```bash
+$ git diff
+```
+
 
 
 ## git提交
