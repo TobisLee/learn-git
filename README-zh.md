@@ -34,3 +34,38 @@ $ git config --local user.email "xxx@xxx.com"
 
 ## git克隆仓库
 
+
+
+## git添加文件
+
+
+
+## git提交
+
+
+
+## git推送到远程
+
+
+
+## git添加远程仓库
+
+
+
+## git分支
+
+
+
+## git拉取合并
+
+
+
+## git标签
+
+
+
+## git log
+
+
+
+## git替换本地改动
