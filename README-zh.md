@@ -134,6 +134,18 @@ $ git commit -m "commit message"
 
 ## git添加远程仓库
 
+把本地仓库远程连接到远程仓库：
+
+```bash
+$ git remote add <remote> <url>
+```
+
+例如：
+
+```bash
+$ git remote add origin git@domain/repo.git
+```
+
 
 
 ## git分支
