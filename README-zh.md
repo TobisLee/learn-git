@@ -82,6 +82,30 @@ $ git status
 $ git diff
 ```
 
+查看过去的提交：
+
+```bash
+$ git log
+```
+
+一行显示过去提交的信息简介：
+
+```bash
+$ git log --pretty=oneline
+```
+
+查看某个用户的所有提交：
+
+```bash
+$ git log --author="username"
+```
+
+谁，在什么时间，修改了文件的什么内容：
+
+```bash
+$ git blame <file>
+```
+
 
 
 ## git提交
@@ -100,7 +124,9 @@ $ git commit -m "commit message"
 
 
 
-**永远不要修复一个已经推送到公共仓库中的提交**
+**永远不要修复一个已经推送到公共仓库中的提交** 
+
+
 
 ## git推送到远程
 
@@ -119,10 +145,6 @@ $ git commit -m "commit message"
 
 
 ## git标签
-
-
-
-## git log
 
 
 
