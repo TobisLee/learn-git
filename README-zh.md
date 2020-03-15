@@ -86,6 +86,18 @@ $ git diff
 
 ## git提交
 
+提交时调用文本编辑器添加提交信息：
+
+```bash
+$ git commit
+```
+
+提交时添加单行提交信息：
+
+```bash
+$ git commit -m "commit message"
+```
+
 
 
 ## git推送到远程
