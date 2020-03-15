@@ -30,6 +30,12 @@ $ git config --local user.email "xxx@xxx.com"
 
 ## git初始化仓库
 
+在本地仓库创建新的 `git` 仓库（在项目的根目录下创建 `.git` 文件）：
+
+```bash
+$ git init
+```
+
 
 
 ## git克隆仓库
