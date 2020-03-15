@@ -40,6 +40,16 @@ $ git init
 
 ## git克隆仓库
 
+把远程项目下载到本地：
+
+```bash
+# Through SSH
+$ git clone ssh://user@domain.com/repo.git
+
+# Through HTTP
+$ git clone http://github.com/user/repo.git
+```
+
 
 
 ## git添加文件
