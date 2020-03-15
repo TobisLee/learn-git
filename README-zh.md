@@ -92,7 +92,7 @@ $ git diff
 $ git commit
 ```
 
-提交时添加单行提交信息：
+提交时添加单行提交信息（不建议使用）：
 
 ```bash
 $ git commit -m "commit message"
