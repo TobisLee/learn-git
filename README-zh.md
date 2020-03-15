@@ -154,6 +154,38 @@ $ git push origin master
 
 ## git分支
 
+列出所有的分支：
+
+```
+$ git branch
+```
+
+列出所有的远端分支：
+
+```
+$ git branch -r
+```
+
+切换分支：
+
+```
+$ git checkout <branch>
+```
+
+创建并切换到新分支:
+
+```
+$ git checkout -b <branch>
+```
+
+删除本地分支:
+
+```
+$ git branch -d <branch>
+```
+
+
+
 
 
 ## git拉取合并
