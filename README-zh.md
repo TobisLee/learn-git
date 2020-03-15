@@ -122,13 +122,7 @@ $ git commit
 $ git commit -m "commit message"
 ```
 
-
-
 **永远不要修复一个已经推送到公共仓库中的提交** 
-
-
-
-## git推送到远程
 
 
 
@@ -144,6 +138,16 @@ $ git remote add <remote> <url>
 
 ```bash
 $ git remote add origin git@domain/repo.git
+```
+
+
+
+## git推送到远程
+
+将本地仓库的改动提交到远程仓库的 `master` 分支：
+
+```bash
+$ git push origin master
 ```
 
 
