@@ -54,6 +54,22 @@ $ git clone http://github.com/user/repo.git
 
 ## git添加文件
 
+添加目录下的全部文件：
+
+```bash
+$ git add .
+```
+
+添加目录下 `.py` 文件：
+
+```bash
+$ git add *.py
+```
+
+
+
+## git查看状态和不同
+
 
 
 ## git提交
