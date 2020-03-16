@@ -240,6 +240,8 @@ $ git merge --no-ff
 
 ## git标签
 
+**Tag 就是只读的分支**
+
 查看tag：
 
 ```bash
