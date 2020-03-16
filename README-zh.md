@@ -142,12 +142,42 @@ $ git remote add origin git@domain/repo.git
 
 
 
-## git推送到远程
+## git远程
+
+更新远程库信息：
+
+```bash
+$ git fetch
+```
+
+将远程库最新修改更新到本地仓库：
+
+```bash
+$ git pull
+```
+
+将本地修改推送到远程分支：
+
+```bash
+$ git push origin <branch>
+```
 
 将本地仓库的改动提交到远程仓库的 `master` 分支：
 
 ```bash
 $ git push origin master
+```
+
+使用远程分支创建本地分支：
+
+```bash
+$ git checkout -b <branch> origin/<branch>
+```
+
+将本地分支与远程分支相关联：
+
+```bash
+$ git branch --set-upstream <branch> origin/<branch>
 ```
 
 
@@ -156,39 +186,63 @@ $ git push origin master
 
 列出所有的分支：
 
-```
+```bash
 $ git branch
 ```
 
 列出所有的远端分支：
 
-```
+```bash
 $ git branch -r
 ```
 
-切换分支：
+仅创建分支：
 
-```
-$ git checkout <branch>
+```bash
+$ git branch <branch>
 ```
 
 创建并切换到新分支:
 
-```
+```bash
 $ git checkout -b <branch>
 ```
 
 删除本地分支:
 
-```
+```bash
 $ git branch -d <branch>
 ```
 
+删除远程分支：
 
+```bash
+$ git push origin -d <branch>
+```
 
+切换分支：
 
+```bash
+$ git checkout <branch>
+```
 
-## git拉取合并
+合并某分支到当前分支：
+
+```bash
+$ git merge <branch>
+```
+
+例如，我们此时在 `master` 分支，想要合并 `dev` 分支上的内容：
+
+```bash
+$ git merge dev
+```
+
+合并分支时禁用 `fast forward` :
+
+```bash
+$ git merge --no-ff
+```
 
 
 
