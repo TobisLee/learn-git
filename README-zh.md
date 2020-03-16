@@ -240,6 +240,52 @@ $ git merge --no-ff
 
 ## git标签
 
+查看tag：
+
+```bash
+# 查看本地tag:
+$ git tag
+
+# 查看远程tag:
+$ git tag -r
+```
+
+添加tag：
+
+```bash
+# 给当前版本添加tag:
+$ git tag <tag-name>
+
+# 给历史版本添加tag:
+$ git tag <tag-name> commitid
+```
+
+删除tag：
+
+```bash
+# 删除本地标签:
+$ git tag -d <tag-name>
+
+# 删除远程标签：
+$ git push origin -d <tag-name>
+```
+
+推送到远端仓库：
+
+```bash
+$ git push origin <tag-name>
+
+# 推送所有未提交的tag:
+$ git push origin --tags
+```
+
+更新到本地：
+
+```bash
+$ git pull origin --tags
+```
+
 
 
 ## git替换本地改动
+
