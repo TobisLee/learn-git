@@ -58,11 +58,8 @@ $ git clone http://github.com/user/repo.git
 
 ```bash
 $ git add .
-```
 
-添加目录下 `.py` 文件：
-
-```bash
+# 例如，添加目录下 .py 文件：
 $ git add *.py
 ```
 
@@ -132,11 +129,8 @@ $ git commit -m "commit message"
 
 ```bash
 $ git remote add <remote> <url>
-```
 
-例如：
-
-```bash
+# 例如：
 $ git remote add origin git@domain/repo.git
 ```
 
@@ -160,11 +154,8 @@ $ git pull
 
 ```bash
 $ git push origin <branch>
-```
 
-将本地仓库的改动提交到远程仓库的 `master` 分支：
-
-```bash
+# 例如，将本地仓库的改动提交到远程仓库的 master 分支：
 $ git push origin master
 ```
 
@@ -184,15 +175,16 @@ $ git branch --set-upstream <branch> origin/<branch>
 
 ## git分支
 
-列出所有的分支：
+列出分支：
 
 ```bash
+# 查看当前分支：
 $ git branch
-```
 
-列出所有的远端分支：
+# 列出所有的分支：
+$ git branch -a
 
-```bash
+# 列出所有的远端分支：
 $ git branch -r
 ```
 
