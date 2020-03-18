@@ -291,3 +291,6 @@ $ git pull origin --tags
 
 ## git替换本地改动
 
+## LICENSE
+
+MIT License
