@@ -160,7 +160,9 @@ $ git reset HEAD file
 $ 
 
 # delete file in remote repo
-$ 
+$ git rm --cached file
+$ git commit -m "delete files"
+$ git push origin master
 ```
 
 
